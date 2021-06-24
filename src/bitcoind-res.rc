@@ -16,8 +16,8 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Litecoin"
-            VALUE "FileDescription",    "dillycoind (Litecoin node with a JSON-RPC server)"
+            VALUE "CompanyName",        "Dillycoin"
+            VALUE "FileDescription",    "dillycoind (Dillycoin node with a JSON-RPC server)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
             VALUE "InternalName",       "dillycoind"
             VALUE "LegalCopyright",     COPYRIGHT_STR
