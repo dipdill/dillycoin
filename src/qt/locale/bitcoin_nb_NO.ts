@@ -66,12 +66,12 @@
         <translation>Mottager adresser</translation>
     </message>
     <message>
-        <source>These are your Litecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Dette er dine Litecoin adresser for å sende  å sende betalinger. Husk å sjekke beløp og mottager adresser før du sender mynter.</translation>
+        <source>These are your Dillycoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Dette er dine Dillycoin adresser for å sende  å sende betalinger. Husk å sjekke beløp og mottager adresser før du sender mynter.</translation>
     </message>
     <message>
-        <source>These are your Litecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Dette er dine Litecoin adresse for å motta betalinger. Det er anbefalt å bruke en ny mottager adresse for hver transaksjon.</translation>
+        <source>These are your Dillycoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Dette er dine Dillycoin adresse for å motta betalinger. Det er anbefalt å bruke en ny mottager adresse for hver transaksjon.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -342,8 +342,8 @@
         <translation>Proxy er &lt;b&gt;slått på&lt;/b&gt;: %1</translation>
     </message>
     <message>
-        <source>Send coins to a Litecoin address</source>
-        <translation>Send mynter til en Litecoin adresse</translation>
+        <source>Send coins to a Dillycoin address</source>
+        <translation>Send mynter til en Dillycoin adresse</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -366,8 +366,8 @@
         <translation>&amp;Verifiser meldingen...</translation>
     </message>
     <message>
-        <source>Litecoin</source>
-        <translation>Litecoin</translation>
+        <source>Dillycoin</source>
+        <translation>Dillycoin</translation>
     </message>
     <message>
         <source>&amp;Send</source>
@@ -390,12 +390,12 @@
         <translation>Krypter de private nøklene som tilhører lommeboken din</translation>
     </message>
     <message>
-        <source>Sign messages with your Litecoin addresses to prove you own them</source>
-        <translation>Signer meldingene med Litecoin adresse for å bevise at diu eier dem</translation>
+        <source>Sign messages with your Dillycoin addresses to prove you own them</source>
+        <translation>Signer meldingene med Dillycoin adresse for å bevise at diu eier dem</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Litecoin addresses</source>
-        <translation>Verifiser meldinger for å sikre at de ble signert med en angitt Litecoin adresse</translation>
+        <source>Verify messages to ensure they were signed with specified Dillycoin addresses</source>
+        <translation>Verifiser meldinger for å sikre at de ble signert med en angitt Dillycoin adresse</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -434,8 +434,8 @@
         <translation>&amp;Kommandolinjealternativer</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Litecoin network</source>
-        <translation><numerusform>%n aktiv tilkobling til Litecoin nettverket</numerusform><numerusform>%n aktive tilkoblinger til Litecoin nettverket</numerusform></translation>
+        <source>%n active connection(s) to Dillycoin network</source>
+        <translation><numerusform>%n aktiv tilkobling til Dillycoin nettverket</numerusform><numerusform>%n aktive tilkoblinger til Dillycoin nettverket</numerusform></translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -486,8 +486,8 @@
         <translation>&amp;Mottaker adresser</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Litecoin command-line options</source>
-        <translation>Vis %1-hjelpemeldingen for å få en liste over mulige Litecoin-kommandolinjealternativer</translation>
+        <source>Show the %1 help message to get a list with possible Dillycoin command-line options</source>
+        <translation>Vis %1-hjelpemeldingen for å få en liste over mulige Dillycoin-kommandolinjealternativer</translation>
     </message>
     <message>
         <source>&amp;Window</source>
@@ -593,8 +593,8 @@
 <context>
     <name>Intro</name>
     <message>
-        <source>Litecoin</source>
-        <translation>Litecoin</translation>
+        <source>Dillycoin</source>
+        <translation>Dillycoin</translation>
     </message>
     <message>
         <source>Error</source>

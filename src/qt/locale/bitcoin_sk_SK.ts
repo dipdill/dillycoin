@@ -66,12 +66,12 @@
         <translation>Adresa prijímaťeľa</translation>
     </message>
     <message>
-        <source>These are your Litecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Toto je vaša Litecoin adresa pre odosielanie platieb. Vždy si overte hodnotu a adresu prijímateľa pred odoslaním vaších mincí.</translation>
+        <source>These are your Dillycoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Toto je vaša Dillycoin adresa pre odosielanie platieb. Vždy si overte hodnotu a adresu prijímateľa pred odoslaním vaších mincí.</translation>
     </message>
     <message>
-        <source>These are your Litecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Toto je vaša Litecoin adresa pre prijímanie platieb. Odporúčame Vám používať vždy novú adresu pre každú transakciu.</translation>
+        <source>These are your Dillycoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Toto je vaša Dillycoin adresa pre prijímanie platieb. Odporúčame Vám používať vždy novú adresu pre každú transakciu.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -334,8 +334,8 @@
         <translation>Proxy je &lt;b&gt;povolené&lt;/b&gt;: %1</translation>
     </message>
     <message>
-        <source>Send coins to a Litecoin address</source>
-        <translation>Poslať mince do Litecoin adresy</translation>
+        <source>Send coins to a Dillycoin address</source>
+        <translation>Poslať mince do Dillycoin adresy</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -358,8 +358,8 @@
         <translation>&amp;Overiť správu...</translation>
     </message>
     <message>
-        <source>Litecoin</source>
-        <translation>Litecoin</translation>
+        <source>Dillycoin</source>
+        <translation>Dillycoin</translation>
     </message>
     <message>
         <source>&amp;Send</source>
@@ -382,12 +382,12 @@
         <translation>Zašifrovať súkromné kľúče patriace k vašej peňaženke</translation>
     </message>
     <message>
-        <source>Sign messages with your Litecoin addresses to prove you own them</source>
-        <translation>Podpísať správu s vašou Litecoin adresou pre dokázanie že ich vlastníte</translation>
+        <source>Sign messages with your Dillycoin addresses to prove you own them</source>
+        <translation>Podpísať správu s vašou Dillycoin adresou pre dokázanie že ich vlastníte</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Litecoin addresses</source>
-        <translation>Overiť správy pre zaručenie že boli podpísané špecifickými Litecoin adresami</translation>
+        <source>Verify messages to ensure they were signed with specified Dillycoin addresses</source>
+        <translation>Overiť správy pre zaručenie že boli podpísané špecifickými Dillycoin adresami</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -419,15 +419,15 @@
     </message>
     <message>
         <source>Open a dillycoin: URI or payment request</source>
-        <translation>Otvoriť Litecoin: URI alebo vyžiadanie platby</translation>
+        <translation>Otvoriť Dillycoin: URI alebo vyžiadanie platby</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>&amp;Možnosti príkazového riadku</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Litecoin network</source>
-        <translation><numerusform>%n aktívne pripojenia na Litecoin sieti</numerusform><numerusform>%n aktívne pripojenia na Litecoin sieti</numerusform><numerusform>%n aktívne pripojenia na Litecoin sieti</numerusform><numerusform>%n aktívne pripojenia na Litecoin sieti</numerusform></translation>
+        <source>%n active connection(s) to Dillycoin network</source>
+        <translation><numerusform>%n aktívne pripojenia na Dillycoin sieti</numerusform><numerusform>%n aktívne pripojenia na Dillycoin sieti</numerusform><numerusform>%n aktívne pripojenia na Dillycoin sieti</numerusform><numerusform>%n aktívne pripojenia na Dillycoin sieti</numerusform></translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -470,8 +470,8 @@
         <translation>Aktuálne</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Litecoin command-line options</source>
-        <translation>Ukázať %1 pomocnú správu na dostanie zoznamu s možnými možnosťami v Litecoin príkazovom riadku</translation>
+        <source>Show the %1 help message to get a list with possible Dillycoin command-line options</source>
+        <translation>Ukázať %1 pomocnú správu na dostanie zoznamu s možnými možnosťami v Dillycoin príkazovom riadku</translation>
     </message>
     <message>
         <source>default wallet</source>
@@ -554,8 +554,8 @@
         <translation>Peňaženka je &lt;b&gt;zašifrovaná&lt;/b&gt; a aktuálne &lt;b&gt;zamknutá&lt;/b&gt;</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Litecoin can no longer continue safely and will quit.</source>
-        <translation>Nastala fatálna chyba. Litecoin už nemôže pokračovať bezpečne a vypne sa.</translation>
+        <source>A fatal error occurred. Dillycoin can no longer continue safely and will quit.</source>
+        <translation>Nastala fatálna chyba. Dillycoin už nemôže pokračovať bezpečne a vypne sa.</translation>
     </message>
 </context>
 <context>
@@ -744,8 +744,8 @@
         <translation>Upraviť odosielaciu adresu</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Litecoin address.</source>
-        <translation>Vložená adresa ''%1'' nie je platná Litecoin adresa.</translation>
+        <source>The entered address "%1" is not a valid Dillycoin address.</source>
+        <translation>Vložená adresa ''%1'' nie je platná Dillycoin adresa.</translation>
     </message>
     <message>
         <source>Address "%1" already exists as a receiving address with label "%2" and so cannot be added as a sending address.</source>
@@ -841,8 +841,8 @@
         <translation>Použiť vlastný dátový adresár:</translation>
     </message>
     <message>
-        <source>Litecoin</source>
-        <translation>Litecoin</translation>
+        <source>Dillycoin</source>
+        <translation>Dillycoin</translation>
     </message>
     <message>
         <source>At least %1 GB of data will be stored in this directory, and it will grow over time.</source>
@@ -853,8 +853,8 @@
         <translation>V tomto adresári bude uložených približne %1 GB dát.</translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the Litecoin block chain.</source>
-        <translation>%1 stiahne a bude uchovávať kópiu Litecoin blockchainu.</translation>
+        <source>%1 will download and store a copy of the Dillycoin block chain.</source>
+        <translation>%1 stiahne a bude uchovávať kópiu Dillycoin blockchainu.</translation>
     </message>
     <message>
         <source>The wallet will also be stored in this directory.</source>
@@ -885,7 +885,7 @@
     </message>
     <message>
         <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the dillycoin network, as detailed below.</source>
-        <translation>Nedávne transakcie ešte nemusia byť viditeľné takže zostatok vo vašej peňaženke môže byť nesprávny. Táto informácia sa opraví keď sa vaša peňaženka zosynchronizuje s Litecoin sieťou ako je popísané nižšie.</translation>
+        <translation>Nedávne transakcie ešte nemusia byť viditeľné takže zostatok vo vašej peňaženke môže byť nesprávny. Táto informácia sa opraví keď sa vaša peňaženka zosynchronizuje s Dillycoin sieťou ako je popísané nižšie.</translation>
     </message>
     <message>
         <source>Attempting to spend dillycoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
@@ -1058,8 +1058,8 @@
         <translation>&amp;Míňať nepotvrdené mince</translation>
     </message>
     <message>
-        <source>Automatically open the Litecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automaticky otvoriť port Litecoin klienta na routeri. Toto funguje len vtedy, keď Váš router podporuje a má zapnuté UPnP </translation>
+        <source>Automatically open the Dillycoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automaticky otvoriť port Dillycoin klienta na routeri. Toto funguje len vtedy, keď Váš router podporuje a má zapnuté UPnP </translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1074,8 +1074,8 @@
         <translation>Povoliť prichá&amp;dzajúce spojenia</translation>
     </message>
     <message>
-        <source>Connect to the Litecoin network through a SOCKS5 proxy.</source>
-        <translation>Pripojiť sa k Litecoin sieti cez SOCKS5 proxy.</translation>
+        <source>Connect to the Dillycoin network through a SOCKS5 proxy.</source>
+        <translation>Pripojiť sa k Dillycoin sieti cez SOCKS5 proxy.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1110,8 +1110,8 @@
         <translation>Tor</translation>
     </message>
     <message>
-        <source>Connect to the Litecoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>Pripojiť sa k Litecoin sieti cez osobitné SOCKS5 proxy pre skryté služby Toru</translation>
+        <source>Connect to the Dillycoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <translation>Pripojiť sa k Dillycoin sieti cez osobitné SOCKS5 proxy pre skryté služby Toru</translation>
     </message>
     <message>
         <source>&amp;Window</source>
@@ -1217,8 +1217,8 @@
         <translation>Forma</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Litecoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Ukázaná informácia už môže byť zastaraná. Vaša peňaženka sa automaticky zosynchronizuje s Litecoin sieťou po tom, čo bude pripojená k internetu , tento proces sa zatiaľ nedokončil.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Dillycoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Ukázaná informácia už môže byť zastaraná. Vaša peňaženka sa automaticky zosynchronizuje s Dillycoin sieťou po tom, čo bude pripojená k internetu , tento proces sa zatiaľ nedokončil.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1293,7 +1293,7 @@
     </message>
     <message>
         <source>Cannot start dillycoin: click-to-pay handler</source>
-        <translation>Nemôžem spustiť Litecoin: click-to-pay handler</translation>
+        <translation>Nemôžem spustiť Dillycoin: click-to-pay handler</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -1312,8 +1312,8 @@
         <translation>Neplatná platobná adresa %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Litecoin address or malformed URI parameters.</source>
-        <translation>URI nemohla byť analyzovaná. Môže to byť spôsobené neplatnou Litecoin adresou alebo chybnými parametrami URI.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Dillycoin address or malformed URI parameters.</source>
+        <translation>URI nemohla byť analyzovaná. Môže to byť spôsobené neplatnou Dillycoin adresou alebo chybnými parametrami URI.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1414,7 +1414,7 @@
         <translation>Čiastka</translation>
     </message>
     <message>
-        <source>Enter a Litecoin address (e.g. %1)</source>
+        <source>Enter a Dillycoin address (e.g. %1)</source>
         <translation>Vložte dillycoin adresu (napr. %1)</translation>
     </message>
     <message>
@@ -1850,8 +1850,8 @@
         <translation>&amp;Správa:</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Litecoin network.</source>
-        <translation>Nepovinná správa ktorá bude pripojená k žiadosti o platbu. Správa bude zobrazená po otvorení žiadosti o platbu. Táto správa nebude odoslaná spolu s platbou na Litecoin sieti.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Dillycoin network.</source>
+        <translation>Nepovinná správa ktorá bude pripojená k žiadosti o platbu. Správa bude zobrazená po otvorení žiadosti o platbu. Táto správa nebude odoslaná spolu s platbou na Dillycoin sieti.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -2271,8 +2271,8 @@ Zapamätajte si: Keďže cena poplatku je počítaná za bajt, tak poplatok o ho
         <translation><numerusform>Predpoklad na začanie potvrdenia do %n bloku.</numerusform><numerusform>Predpoklad na začanie potvrdenia do %n blokov.</numerusform><numerusform>Predpoklad na začanie potvrdenia do %n blokov.</numerusform><numerusform>Predpoklad na začanie potvrdenia do %n blokov.</numerusform></translation>
     </message>
     <message>
-        <source>Warning: Invalid Litecoin address</source>
-        <translation>Upozornenie: Nesprávna Litecoin adresa</translation>
+        <source>Warning: Invalid Dillycoin address</source>
+        <translation>Upozornenie: Nesprávna Dillycoin adresa</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2314,8 +2314,8 @@ Zapamätajte si: Keďže cena poplatku je počítaná za bajt, tak poplatok o ho
         <translation>Toto je normálna platba</translation>
     </message>
     <message>
-        <source>The Litecoin address to send the payment to</source>
-        <translation>Litecoin adresa do ktorej môžete poslať platbu</translation>
+        <source>The Dillycoin address to send the payment to</source>
+        <translation>Dillycoin adresa do ktorej môžete poslať platbu</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2335,7 +2335,7 @@ Zapamätajte si: Keďže cena poplatku je počítaná za bajt, tak poplatok o ho
     </message>
     <message>
         <source>The fee will be deducted from the amount being sent. The recipient will receive less dillycoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation>Poplatok bude odčítaný z čiastky ktorá bola odoslaná. Prijímateľ obdrží menej Litecoinov ako vložíte do poľa s čiastkou. Ak ste si vybrali viacerích prijímateľov tak bude poplatok rozdelený rovnomerne.</translation>
+        <translation>Poplatok bude odčítaný z čiastky ktorá bola odoslaná. Prijímateľ obdrží menej Dillycoinov ako vložíte do poľa s čiastkou. Ak ste si vybrali viacerích prijímateľov tak bude poplatok rozdelený rovnomerne.</translation>
     </message>
     <message>
         <source>S&amp;ubtract fee from amount</source>
@@ -2362,8 +2362,8 @@ Zapamätajte si: Keďže cena poplatku je počítaná za bajt, tak poplatok o ho
         <translation>Zadajte štítok pre túto adresu aby ste ju pridali do zoznamu použitých adries.</translation>
     </message>
     <message>
-        <source>A message that was attached to the dillycoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Litecoin network.</source>
-        <translation>Správa pripojená k Litecoin URI ktorá bude uložená spolu s transakciou pre vašu referenciu. Poznámka: Táto správa nebude odoslaná cez Litecoin sieť.</translation>
+        <source>A message that was attached to the dillycoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Dillycoin network.</source>
+        <translation>Správa pripojená k Dillycoin URI ktorá bude uložená spolu s transakciou pre vašu referenciu. Poznámka: Táto správa nebude odoslaná cez Dillycoin sieť.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2408,11 +2408,11 @@ Zapamätajte si: Keďže cena poplatku je počítaná za bajt, tak poplatok o ho
     </message>
     <message>
         <source>You can sign messages/agreements with your addresses to prove you can receive dillycoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>Môžete podpísať správy / dohody s vašimi adresami, aby ste dokázali, že môžete obdržať Litecoiny ktoré tam boli zaslané. Buďte opatrný a nikdy nepodpodpisujte nič náhodné alebo nejasné, kedže phishing útoky sa vás môžu pokúsiť naviesť na podpísanie vašej indentity. Podpisujte len podrobné vyhlásenia s ktorými súhlasíte.</translation>
+        <translation>Môžete podpísať správy / dohody s vašimi adresami, aby ste dokázali, že môžete obdržať Dillycoiny ktoré tam boli zaslané. Buďte opatrný a nikdy nepodpodpisujte nič náhodné alebo nejasné, kedže phishing útoky sa vás môžu pokúsiť naviesť na podpísanie vašej indentity. Podpisujte len podrobné vyhlásenia s ktorými súhlasíte.</translation>
     </message>
     <message>
-        <source>The Litecoin address to sign the message with</source>
-        <translation>Litecoin adresa na podpísanie správy</translation>
+        <source>The Dillycoin address to sign the message with</source>
+        <translation>Dillycoin adresa na podpísanie správy</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2443,8 +2443,8 @@ Zapamätajte si: Keďže cena poplatku je počítaná za bajt, tak poplatok o ho
         <translation>Skopírovať aktuálny podpis do clipboardu systému</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Litecoin address</source>
-        <translation>Podpíšte túto správu na overenie vlastníctva tejto Litecoin adresy</translation>
+        <source>Sign the message to prove you own this Dillycoin address</source>
+        <translation>Podpíšte túto správu na overenie vlastníctva tejto Dillycoin adresy</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2467,12 +2467,12 @@ Zapamätajte si: Keďže cena poplatku je počítaná za bajt, tak poplatok o ho
         <translation>Vložte adresu príjemcu a správu (uistite sa, že presne kopírujete ukončenia riadkov, medzery, odseky  atď.) a podpis pre potvrdenie správy. Buďte opatrní a nedomýšľajte si viac než je uvedené v samotnej podpísanej správe a môžete sa tak vyhnúť podvodu Man-in-the-middle útokom. Poznámka: Toto len potvrdzuje, že podpisujúca strana môže prijímať na tejto adrese, nepotvrdzuje to vlastníctvo žiadnej transakcie!</translation>
     </message>
     <message>
-        <source>The Litecoin address the message was signed with</source>
-        <translation>Litecoin adresa s ktorou bola táto správa podpísaná</translation>
+        <source>The Dillycoin address the message was signed with</source>
+        <translation>Dillycoin adresa s ktorou bola táto správa podpísaná</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Litecoin address</source>
-        <translation>Overte správu aby ste sa uistili že bola podpísaná so špecifickou Litecoin adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified Dillycoin address</source>
+        <translation>Overte správu aby ste sa uistili že bola podpísaná so špecifickou Dillycoin adresou</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -3127,8 +3127,8 @@ Zapamätajte si: Keďže cena poplatku je počítaná za bajt, tak poplatok o ho
         <translation>Nebolo možné spustiť HTTP server. Pozrite si debug log pre viac informácií.</translation>
     </message>
     <message>
-        <source>Litecoin Core</source>
-        <translation>Litecoin Core</translation>
+        <source>Dillycoin Core</source>
+        <translation>Dillycoin Core</translation>
     </message>
     <message>
         <source>The %s developers</source>
