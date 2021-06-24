@@ -386,8 +386,8 @@
         <translation>Bar offer tabiau</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and litecoin: URIs)</source>
-        <translation>Gofyn taliadau (creu côd QR a litecoin: URIs)</translation>
+        <source>Request payments (generates QR codes and dillycoin: URIs)</source>
+        <translation>Gofyn taliadau (creu côd QR a dillycoin: URIs)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -398,7 +398,7 @@
         <translation>Dangos rhestr o gyfeiriadau derbyn a labelau wedi eu defnyddio</translation>
     </message>
     <message>
-        <source>Open a litecoin: URI or payment request</source>
+        <source>Open a dillycoin: URI or payment request</source>
         <translation>Agor Litecoin: URI neu ofyn taliad</translation>
     </message>
     <message>

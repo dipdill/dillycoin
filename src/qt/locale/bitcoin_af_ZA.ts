@@ -398,8 +398,8 @@
         <translation>Blad nutsbalk</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and litecoin: URIs)</source>
-        <translation>Versoek betalings (genereer QR kodes en litecoin: URIs)</translation>
+        <source>Request payments (generates QR codes and dillycoin: URIs)</source>
+        <translation>Versoek betalings (genereer QR kodes en dillycoin: URIs)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -410,8 +410,8 @@
         <translation>Wys die lys van gebruikte ontvangsadresse en etikette</translation>
     </message>
     <message>
-        <source>Open a litecoin: URI or payment request</source>
-        <translation>Open 'n litecoin: URI of betalingsversoek</translation>
+        <source>Open a dillycoin: URI or payment request</source>
+        <translation>Open 'n dillycoin: URI of betalingsversoek</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
