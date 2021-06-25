@@ -110,10 +110,10 @@ public:
         m_assumed_blockchain_size = 22;
         m_assumed_chain_state_size = 3;
 
-        genesis = CreateGenesisBlock(1624625788, 3880368072, 0x1d00ffff, 1, 50 * COIN);
+        genesis = CreateGenesisBlock(1624641523, 582041, 0x1e0ffff0, 1, 50 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
-        assert(consensus.hashGenesisBlock == uint256S("0x00000000c1a130630bd837e77ee6ac346b70e31b2aef4eca7499f4a3123d2136"));
-        assert(genesis.hashMerkleRoot == uint256S("0x73170601ed0edace32277f51dfbe08614b6ce292c5d9738b2d4abb46dabdbda3"));
+        assert(consensus.hashGenesisBlock == uint256S("0xcc45cd3e333405429f4173741c2723d8cf5198513ad4b2a64b501d645163049f"));
+        assert(genesis.hashMerkleRoot == uint256S("0xaeed56cc6801a42deab35a1957a9103001051122bb1110b0533272b8b8fb52d8"));
 
         // Note that of those which support the service bits prefix, most only support a subset of
         // possible options.
@@ -291,10 +291,10 @@ public:
 
         UpdateVersionBitsParametersFromArgs(args);
 
-        genesis = CreateGenesisBlock(1624625788, 3880368072, 0x1d00ffff, 1, 50 * COIN);
+        genesis = CreateGenesisBlock(1624641523, 582041, 0x1e0ffff0, 1, 50 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
-        assert(consensus.hashGenesisBlock == uint256S("0x00000000c1a130630bd837e77ee6ac346b70e31b2aef4eca7499f4a3123d2136"));
-        assert(genesis.hashMerkleRoot == uint256S("0x73170601ed0edace32277f51dfbe08614b6ce292c5d9738b2d4abb46dabdbda3"));
+        assert(consensus.hashGenesisBlock == uint256S("0xcc45cd3e333405429f4173741c2723d8cf5198513ad4b2a64b501d645163049f"));
+        assert(genesis.hashMerkleRoot == uint256S("0xaeed56cc6801a42deab35a1957a9103001051122bb1110b0533272b8b8fb52d8"));
 
         vFixedSeeds.clear(); //!< Regtest mode doesn't have any fixed seeds.
         vSeeds.clear();      //!< Regtest mode doesn't have any DNS seeds.
