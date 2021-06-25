@@ -19,8 +19,8 @@
 
 static CBlock CreateGenesisBlock(const char* pszTimestamp, const CScript& genesisOutputScript, uint32_t nTime, uint32_t nNonce, uint32_t nBits, int32_t nVersion, const CAmount& genesisReward)
 {
-    const char* pszTimestamp = "On 25/Jun/2021 this alt coin was created for the people";
-    const CScript genesisOutputScript = CScript() << ParseHex("048E794284AD7E4D776919BDA05CDD38447D89B436BDAF5F65EBE9D7AD3A0B084908B88162BB60B1AA5ED6542063A30FC9584A335F656A54CD9F66D6C742B67F55") << OP_CHECKSIG;
+    pszTimestamp = "On 25/Jun/2021 this alt coin was created for the people";
+    genesisOutputScript = CScript() << ParseHex("048E794284AD7E4D776919BDA05CDD38447D89B436BDAF5F65EBE9D7AD3A0B084908B88162BB60B1AA5ED6542063A30FC9584A335F656A54CD9F66D6C742B67F55") << OP_CHECKSIG;
 
     CMutableTransaction txNew;
     txNew.nVersion = 1;
