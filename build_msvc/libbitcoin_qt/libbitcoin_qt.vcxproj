@@ -55,361 +55,361 @@
     <None Include="..\..\src\qt\forms\sendcoinsentry.ui" />
     <None Include="..\..\src\qt\forms\signverifymessagedialog.ui" />
     <None Include="..\..\src\qt\forms\transactiondescdialog.ui" />
-    <None Include="..\..\src\qt\locale\bitcoin_af.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_af.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_af_ZA.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_af_ZA.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_am.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_am.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_ar.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_ar.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_be_BY.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_be_BY.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_bg.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_bg.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_bg_BG.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_bg_BG.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_bn.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_bn.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_bs.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_bs.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_ca.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_ca.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_ca%40valencia.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_ca%40valencia.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_ca_ES.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_ca_ES.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_cs.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_cs.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_cs_CZ.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_cs_CZ.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_cy.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_cy.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_da.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_da.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_de.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_de.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_de_DE.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_de_DE.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_el.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_el.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_el_GR.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_el_GR.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_en.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_en.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_en_AU.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_en_AU.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_en_GB.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_en_GB.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_eo.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_eo.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_es.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_es.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_es_419.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_es_419.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_es_AR.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_es_AR.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_es_CL.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_es_CL.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_es_CO.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_es_CO.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_es_DO.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_es_DO.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_es_ES.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_es_ES.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_es_MX.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_es_MX.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_es_UY.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_es_UY.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_es_VE.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_es_VE.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_et.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_et.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_et_EE.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_et_EE.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_eu_ES.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_eu_ES.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_fa.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_fa.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_fa_IR.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_fa_IR.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_fi.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_fi.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_fil.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_fil.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_fr.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_fr.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_fr_CA.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_fr_CA.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_fr_FR.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_fr_FR.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_gl.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_gl.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_he.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_he.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_he_IL.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_he_IL.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_hi.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_hi.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_hi_IN.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_hi_IN.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_hr.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_hr.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_hu.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_hu.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_hu_HU.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_hu_HU.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_id.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_id.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_id_ID.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_id_ID.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_is.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_is.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_it.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_it.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_it_IT.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_it_IT.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_ja.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_ja.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_ka.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_ka.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_kk_KZ.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_kk_KZ.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_km_KH.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_km_KH.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_ko.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_ko.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_ko_KR.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_ko_KR.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_ku_IQ.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_ku_IQ.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_ky.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_ky.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_la.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_la.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_lt.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_lt.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_lv_LV.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_lv_LV.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_mk_MK.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_mk_MK.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_ml.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_ml.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_mn.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_mn.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_mr_IN.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_mr_IN.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_ms.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_ms.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_ms_MY.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_ms_MY.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_my.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_my.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_nb.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_nb.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_nb_NO.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_nb_NO.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_ne.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_ne.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_nl.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_nl.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_nl_BE.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_nl_BE.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_nl_NL.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_nl_NL.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_pam.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_pam.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_pl.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_pl.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_pl_PL.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_pl_PL.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_pt.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_pt.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_pt_BR.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_pt_BR.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_pt_PT.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_pt_PT.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_ro.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_ro.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_ro_RO.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_ro_RO.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_ru.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_ru.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_ru_RU.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_ru_RU.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_si.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_si.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_sk.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_sk.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_sk_SK.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_sk_SK.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_sl_SI.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_sl_SI.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_sn.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_sn.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_sq.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_sq.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_sr.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_sr.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_sr%40latin.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_sr%40latin.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_sv.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_sv.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_szl.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_szl.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_ta.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_ta.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_ta_IN.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_ta_IN.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_te.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_te.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_th.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_th.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_th_TH.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_th_TH.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_tr.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_tr.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_tr_TR.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_tr_TR.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_uk.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_uk.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_uk_UA.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_uk_UA.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_ur_PK.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_ur_PK.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_uz%40Cyrl.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_uz%40Cyrl.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_vi.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_vi.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_vi_VN.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_vi_VN.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_zh-Hans.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_zh-Hans.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_zh.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_zh.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_zh_CN.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_zh_CN.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_zh_HK.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_zh_HK.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\..\src\qt\locale\bitcoin_zh_TW.ts">
+    <None Include="..\..\src\qt\locale\dillycoin_zh_TW.ts">
       <DeploymentContent>true</DeploymentContent>
     </None>
     <CustomBuild Include="..\..\src\qt\paymentrequest.proto">
