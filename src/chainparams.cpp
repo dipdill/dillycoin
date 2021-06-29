@@ -51,7 +51,7 @@ static CBlock CreateGenesisBlock(const char* pszTimestamp, const CScript& genesi
  */
 static CBlock CreateGenesisBlock(uint32_t nTime, uint32_t nNonce, uint32_t nBits, int32_t nVersion, const CAmount& genesisReward)
 {
-    const char* pszTimestamp = "On 25/Jun/2021 this alt coin was created for the people";
+    const char* pszTimestamp = "On 29/Jun/2021 is when dillycoin testnet was started";
     const CScript genesisOutputScript = CScript() << ParseHex("04678afdb0fe5548271967f1a67130b7105cd6a828e03909a67962e0ea1f61deb649f6bc3f4cef38c4f35504e51ec112de5c384df7ba0b8d578a4c702b6bf11d5f") << OP_CHECKSIG;
     return CreateGenesisBlock(pszTimestamp, genesisOutputScript, nTime, nNonce, nBits, nVersion, genesisReward);
 }
@@ -203,10 +203,10 @@ public:
         m_assumed_blockchain_size = 2;
         m_assumed_chain_state_size = 1;
 
-        genesis = CreateGenesisBlock(1624641523, 582041, 0x1e0ffff0, 1, 50 * COIN);
+        genesis = CreateGenesisBlock(1624990309, 582041, 0x1e0ffff0, 1, 50 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
-        assert(consensus.hashGenesisBlock == uint256S("0xcc45cd3e333405429f4173741c2723d8cf5198513ad4b2a64b501d645163049f"));
-        assert(genesis.hashMerkleRoot == uint256S("0xaeed56cc6801a42deab35a1957a9103001051122bb1110b0533272b8b8fb52d8"));
+        assert(consensus.hashGenesisBlock == uint256S("0xfe893ed755ed9a8d1e340ea07253bf27dbe30e7630f0e388d55cbe4cd5150eea"));
+        assert(genesis.hashMerkleRoot == uint256S("0x2c77678bd3cb68c94fb49b7428fedc37e72f145b93bc4258ebd7e5e3a93759e1"));
 
         vFixedSeeds.clear();
         vSeeds.clear();
@@ -232,7 +232,7 @@ public:
 
         checkpointData = {
             {
-                {     0, uint256S("0xcc45cd3e333405429f4173741c2723d8cf5198513ad4b2a64b501d645163049f")},
+                {     0, uint256S("0xfe893ed755ed9a8d1e340ea07253bf27dbe30e7630f0e388d55cbe4cd5150eea")},
             }
         };
 
