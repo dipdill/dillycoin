@@ -1,0 +1,33 @@
+# /etc/conf.d/dillycoind: config file for /etc/init.d/dillycoind
+
+# Config file location
+#DILLYCOIND_CONFIGFILE="/etc/dillycoin/dillycoin.conf"
+
+# What directory to write pidfile to?  (created and owned by $DILLYCOIND_USER)
+#DILLYCOIND_PIDDIR="/var/run/dillycoind"
+
+# What filename to give the pidfile
+#DILLYCOIND_PIDFILE="${DILLYCOIND_PIDDIR}/dillycoind.pid"
+
+# Where to write dillycoind data (be mindful that the blockchain is large)
+#DILLYCOIND_DATADIR="/var/lib/dillycoind"
+
+# User and group to own dillycoind process
+#DILLYCOIND_USER="dillycoin"
+#DILLYCOIND_GROUP="dillycoin"
+
+# Path to dillycoind executable
+#DILLYCOIND_BIN="/usr/local/bin/dillycoind"
+
+# Nice value to run dillycoind under
+#DILLYCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+#DILLYCOIND_OPTS=""
+
+# The timeout in seconds OpenRC will wait for dillycoind to terminate
+# after a SIGTERM has been raised.
+# Note that this will be mapped as argument to start-stop-daemon's
+# '--retry' option, which means you can specify a retry schedule
+# here. For more information see man 8 start-stop-daemon.
+DILLYCOIND_SIGTERM_TIMEOUT=60

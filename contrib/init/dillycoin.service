@@ -1,47 +1,47 @@
 # It is not recommended to modify this file in-place, because it will
 # be overwritten during package upgrades. If you want to add further
 # options or overwrite existing ones then use
-# $ systemctl edit bitcoind.service
+# $ systemctl edit dillycoind.service
 # See "man systemd.service" for details.
 
 # Note that almost all daemon options could be specified in
-# /etc/bitcoin/bitcoin.conf, except for those explicitly specified as arguments
+# /etc/dillycoin/dillycoin.conf, except for those explicitly specified as arguments
 # in ExecStart=
 
 [Unit]
-Description=Bitcoin daemon
+Description=Dillycoin daemon
 After=network.target
 
 [Service]
-ExecStart=/usr/bin/bitcoind -daemon \
-                            -pid=/run/bitcoind/bitcoind.pid \
-                            -conf=/etc/bitcoin/bitcoin.conf \
-                            -datadir=/var/lib/bitcoind
+ExecStart=/usr/local/bin/dillycoind -daemon \
+                            -pid=/run/dillycoind/dillycoind.pid \
+                            -conf=/etc/dillycoin/dillycoin.conf \
+                            -datadir=/var/lib/dillycoind
 
 # Process management
 ####################
 
 Type=forking
-PIDFile=/run/bitcoind/bitcoind.pid
+PIDFile=/run/dillycoind/dillycoind.pid
 Restart=on-failure
 
 # Directory creation and permissions
 ####################################
 
-# Run as bitcoin:bitcoin
-User=bitcoin
-Group=bitcoin
+# Run as dillycoin:dillycoin
+User=dillycoin
+Group=dillycoin
 
-# /run/bitcoind
-RuntimeDirectory=bitcoind
+# /run/dillycoind
+RuntimeDirectory=dillycoind
 RuntimeDirectoryMode=0710
 
-# /etc/bitcoin
-ConfigurationDirectory=bitcoin
+# /etc/dillycoin
+ConfigurationDirectory=dillycoin
 ConfigurationDirectoryMode=0710
 
-# /var/lib/bitcoind
-StateDirectory=bitcoind
+# /var/lib/dillycoind
+StateDirectory=dillycoind
 StateDirectoryMode=0710
 
 # Hardening measures
