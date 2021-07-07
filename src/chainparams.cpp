@@ -124,6 +124,7 @@ public:
         // vSeeds.emplace_back("dnsseed.thrasher.io");
         // vSeeds.emplace_back("dnsseed.litecointools.com");
         // vSeeds.emplace_back("dnsseed.litecoinpool.org");
+        // vSeeds.emplace_back("dnsseed.dillycoin.com");
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,31);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,5);
@@ -214,6 +215,7 @@ public:
         //vSeeds.emplace_back("testnet-seed.litecointools.com");
         //vSeeds.emplace_back("seed-b.litecoin.loshan.co.uk");
         //vSeeds.emplace_back("dnsseed-testnet.thrasher.io");
+        vSeeds.emplace_back("dnsseed.dillycoin.com");
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,90);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,196);
