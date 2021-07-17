@@ -529,11 +529,11 @@ static UniValue signmessage(const JSONRPCRequest& request)
             "\nUnlock the wallet for 30 seconds\n"
             + HelpExampleCli("walletpassphrase", "\"mypassphrase\" 30") +
             "\nCreate the signature\n"
-            + HelpExampleCli("signmessage", "\"LEr4hNAefWYhBMgxCFP2Po1NPrUeiK8kM2\" \"my message\"") +
+            + HelpExampleCli("signmessage", "\"tdil1q8ta37msmc03v36gzmj7n8lnz5sskry0cf3leq9\" \"my message\"") +
             "\nVerify the signature\n"
-            + HelpExampleCli("verifymessage", "\"LEr4hNAefWYhBMgxCFP2Po1NPrUeiK8kM2\" \"signature\" \"my message\"") +
+            + HelpExampleCli("verifymessage", "\"tdil1q8ta37msmc03v36gzmj7n8lnz5sskry0cf3leq9\" \"signature\" \"my message\"") +
             "\nAs a JSON-RPC call\n"
-            + HelpExampleRpc("signmessage", "\"LEr4hNAefWYhBMgxCFP2Po1NPrUeiK8kM2\", \"my message\"")
+            + HelpExampleRpc("signmessage", "\"tdil1q8ta37msmc03v36gzmj7n8lnz5sskry0cf3leq9\", \"my message\"")
                 },
             }.ToString());
 
@@ -593,13 +593,13 @@ static UniValue getreceivedbyaddress(const JSONRPCRequest& request)
                 },
                 RPCExamples{
             "\nThe amount from transactions with at least 1 confirmation\n"
-            + HelpExampleCli("getreceivedbyaddress", "\"LEr4hNAefWYhBMgxCFP2Po1NPrUeiK8kM2\"") +
+            + HelpExampleCli("getreceivedbyaddress", "\"tdil1q8ta37msmc03v36gzmj7n8lnz5sskry0cf3leq9\"") +
             "\nThe amount including unconfirmed transactions, zero confirmations\n"
-            + HelpExampleCli("getreceivedbyaddress", "\"LEr4hNAefWYhBMgxCFP2Po1NPrUeiK8kM2\" 0") +
+            + HelpExampleCli("getreceivedbyaddress", "\"tdil1q8ta37msmc03v36gzmj7n8lnz5sskry0cf3leq9\" 0") +
             "\nThe amount with at least 6 confirmations\n"
-            + HelpExampleCli("getreceivedbyaddress", "\"LEr4hNAefWYhBMgxCFP2Po1NPrUeiK8kM2\" 6") +
+            + HelpExampleCli("getreceivedbyaddress", "\"tdil1q8ta37msmc03v36gzmj7n8lnz5sskry0cf3leq9\" 6") +
             "\nAs a JSON-RPC call\n"
-            + HelpExampleRpc("getreceivedbyaddress", "\"LEr4hNAefWYhBMgxCFP2Po1NPrUeiK8kM2\", 6")
+            + HelpExampleRpc("getreceivedbyaddress", "\"tdil1q8ta37msmc03v36gzmj7n8lnz5sskry0cf3leq9\", 6")
                 },
             }.ToString());
 
@@ -844,13 +844,13 @@ static UniValue sendmany(const JSONRPCRequest& request)
                  },
                 RPCExamples{
             "\nSend two amounts to two different addresses:\n"
-            + HelpExampleCli("sendmany", "\"\" \"{\\\"LEr4hNAefWYhBMgxCFP2Po1NPrUeiK8kM2\\\":0.01,\\\"LbhhnrHHVFP1eUjP1tdNIYeEVsNHfN9FCw\\\":0.02}\"") +
+            + HelpExampleCli("sendmany", "\"\" \"{\\\"tdil1q8ta37msmc03v36gzmj7n8lnz5sskry0cf3leq9\\\":0.01,\\\"tdil1qmwjg0tcd4qqmpzeyalhpuuy2jnu0kh9nzklun0\\\":0.02}\"") +
             "\nSend two amounts to two different addresses setting the confirmation and comment:\n"
-            + HelpExampleCli("sendmany", "\"\" \"{\\\"LEr4hNAefWYhBMgxCFP2Po1NPrUeiK8kM2\\\":0.01,\\\"LbhhnrHHVFP1eUjP1tdNIYeEVsNHfN9FCw\\\":0.02}\" 6 \"testing\"") +
+            + HelpExampleCli("sendmany", "\"\" \"{\\\"tdil1q8ta37msmc03v36gzmj7n8lnz5sskry0cf3leq9\\\":0.01,\\\"tdil1qmwjg0tcd4qqmpzeyalhpuuy2jnu0kh9nzklun0\\\":0.02}\" 6 \"testing\"") +
             "\nSend two amounts to two different addresses, subtract fee from amount:\n"
-            + HelpExampleCli("sendmany", "\"\" \"{\\\"LEr4hNAefWYhBMgxCFP2Po1NPrUeiK8kM2\\\":0.01,\\\"LbhhnrHHVFP1eUjP1tdNIYeEVsNHfN9FCw\\\":0.02}\" 1 \"\" \"[\\\"LEr4hNAefWYhBMgxCFP2Po1NPrUeiK8kM2\\\",\\\"LbhhnrHHVFP1eUjP1tdNIYeEVsNHfN9FCw\\\"]\"") +
+            + HelpExampleCli("sendmany", "\"\" \"{\\\"tdil1q8ta37msmc03v36gzmj7n8lnz5sskry0cf3leq9\\\":0.01,\\\"tdil1qmwjg0tcd4qqmpzeyalhpuuy2jnu0kh9nzklun0\\\":0.02}\" 1 \"\" \"[\\\"tdil1q8ta37msmc03v36gzmj7n8lnz5sskry0cf3leq9\\\",\\\"tdil1qmwjg0tcd4qqmpzeyalhpuuy2jnu0kh9nzklun0\\\"]\"") +
             "\nAs a JSON-RPC call\n"
-            + HelpExampleRpc("sendmany", "\"\", {\"LEr4hNAefWYhBMgxCFP2Po1NPrUeiK8kM2\":0.01,\"LbhhnrHHVFP1eUjP1tdNIYeEVsNHfN9FCw\":0.02}, 6, \"testing\"")
+            + HelpExampleRpc("sendmany", "\"\", {\"tdil1q8ta37msmc03v36gzmj7n8lnz5sskry0cf3leq9\":0.01,\"tdil1qmwjg0tcd4qqmpzeyalhpuuy2jnu0kh9nzklun0\":0.02}, 6, \"testing\"")
                 },
             }.ToString());
 
