@@ -1,5 +1,6 @@
 // Copyright (c) 2010 Satoshi Nakamoto
 // Copyright (c) 2009-2018 The Bitcoin Core developers
+// Copyright (c) 2021-2021 The Dillycoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -123,7 +124,7 @@ public:
         // vSeeds.emplace_back("dnsseed.thrasher.io");
         // vSeeds.emplace_back("dnsseed.litecointools.com");
         // vSeeds.emplace_back("dnsseed.litecoinpool.org");
-        // vSeeds.emplace_back("dnsseed.dillycoin.com");
+        vSeeds.emplace_back("dnsseed.dillycoin.com");
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,31);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,5);
@@ -300,7 +301,7 @@ public:
 
         UpdateVersionBitsParametersFromArgs(args);
 
-        genesis = CreateGenesisBlock(1624990309, 383771, 0x1e0ffff0, 1, 50 * COIN);
+        genesis = CreateGenesisBlock("On 29/Jun/2021 is when dillycoin testnet was started", 1624990309, 383771, 0x1e0ffff0, 1, 50 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
         assert(consensus.hashGenesisBlock == uint256S("0xfe893ed755ed9a8d1e340ea07253bf27dbe30e7630f0e388d55cbe4cd5150eea"));
         assert(genesis.hashMerkleRoot == uint256S("0x2c77678bd3cb68c94fb49b7428fedc37e72f145b93bc4258ebd7e5e3a93759e1"));
