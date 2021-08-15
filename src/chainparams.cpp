@@ -49,9 +49,8 @@ static CBlock CreateGenesisBlock(const char* pszTimestamp, const CScript& genesi
  *     CTxOut(nValue=50.00000000, scriptPubKey=0x5F1DF16B2B704C8A578D0B)
  *   vMerkleTree: 4a5e1e
  */
-static CBlock CreateGenesisBlock(uint32_t nTime, uint32_t nNonce, uint32_t nBits, int32_t nVersion, const CAmount& genesisReward)
+static CBlock CreateGenesisBlock(const char* pszTimestamp, uint32_t nTime, uint32_t nNonce, uint32_t nBits, int32_t nVersion, const CAmount& genesisReward)
 {
-    const char* pszTimestamp = "The Verge 15/Aug/2021 Jury decides Apple should pay $300 million in patent dispute";
     const CScript genesisOutputScript = CScript() << ParseHex("04678afdb0fe5548271967f1a67130b7105cd6a828e03909a67962e0ea1f61deb649f6bc3f4cef38c4f35504e51ec112de5c384df7ba0b8d578a4c702b6bf11d5f") << OP_CHECKSIG;
     return CreateGenesisBlock(pszTimestamp, genesisOutputScript, nTime, nNonce, nBits, nVersion, genesisReward);
 }
@@ -110,7 +109,7 @@ public:
         m_assumed_blockchain_size = 22;
         m_assumed_chain_state_size = 3;
 
-        genesis = CreateGenesisBlock(1629036000, 638988, 0x1e0ffff0, 1, 50 * COIN);
+        genesis = CreateGenesisBlock("The Verge 15/Aug/2021 Jury decides Apple should pay $300 million in patent dispute", 1629036000, 638988, 0x1e0ffff0, 1, 50 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
         assert(consensus.hashGenesisBlock == uint256S("0x0148304647bd45bbde04c5eb952ed7ecd5c6dad4c3b97617450607a2b6c81c0a"));
         assert(genesis.hashMerkleRoot == uint256S("0xcb7ced253b98977808702c01e2a66d8d2aca1122dd51f1d23c85596a98ea6214"));
@@ -208,7 +207,7 @@ public:
         m_assumed_blockchain_size = 2;
         m_assumed_chain_state_size = 1;
 
-        genesis = CreateGenesisBlock(1624990309, 383771, 0x1e0ffff0, 1, 50 * COIN);
+        genesis = CreateGenesisBlock("On 29/Jun/2021 is when dillycoin testnet was started", 1624990309, 383771, 0x1e0ffff0, 1, 50 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
         assert(consensus.hashGenesisBlock == uint256S("0xfe893ed755ed9a8d1e340ea07253bf27dbe30e7630f0e388d55cbe4cd5150eea"));
         assert(genesis.hashMerkleRoot == uint256S("0x2c77678bd3cb68c94fb49b7428fedc37e72f145b93bc4258ebd7e5e3a93759e1"));
