@@ -70,12 +70,12 @@ public:
         consensus.BIP65Height = 918684; // bab3041e8977e0dc3eeff63fe707b92bde1dd449d8efafb248c27c8264cc311a
         consensus.BIP66Height = 811879; // 7aceee012833fa8952f8835d8b1b3ae233cd6ab08fdb27a771d2bd7bdc491894
         consensus.powLimit = uint256S("00000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"); 
-        consensus.nPowTargetTimespan = 5 * 24 * 60 * 60; // 5 days
-        consensus.nPowTargetSpacing = 5 * 60;
+        consensus.nPowTargetTimespan = 5 * 24 * 60 * 60; // 5 days (432000 seconds)
+        consensus.nPowTargetSpacing = 5 * 60; // 5 minutes (300 seconds)
         consensus.fPowAllowMinDifficultyBlocks = false;
         consensus.fPowNoRetargeting = false;
-        consensus.nRuleChangeActivationThreshold = 4320; // 75% of 8064
-        consensus.nMinerConfirmationWindow = 5760; // nPowTargetTimespan / nPowTargetSpacing * 4
+        consensus.nRuleChangeActivationThreshold = 4320; // 75% of 5760 ( nMinerConfirmationWindow )
+        consensus.nMinerConfirmationWindow = 5760; // ( nPowTargetTimespan / nPowTargetSpacing ) * 4
         consensus.vDeployments[Consensus::DEPLOYMENT_TESTDUMMY].bit = 28;
         consensus.vDeployments[Consensus::DEPLOYMENT_TESTDUMMY].nStartTime = 1199145601; // January 1, 2008
         consensus.vDeployments[Consensus::DEPLOYMENT_TESTDUMMY].nTimeout = 1230767999; // December 31, 2008
@@ -173,7 +173,7 @@ public:
         consensus.BIP65Height = 76; // 8075c771ed8b495ffd943980a95f702ab34fce3c8c54e379548bda33cc8c0573
         consensus.BIP66Height = 76; // 8075c771ed8b495ffd943980a95f702ab34fce3c8c54e379548bda33cc8c0573
         consensus.powLimit = uint256S("00000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff");
-        consensus.nPowTargetTimespan = 2.5 * 24 * 60 * 60; // 5 days
+        consensus.nPowTargetTimespan = 2.5 * 24 * 60 * 60; // 2.5 days
         consensus.nPowTargetSpacing = 1.5 * 60;
         consensus.fPowAllowMinDifficultyBlocks = true;
         consensus.fPowNoRetargeting = false;
