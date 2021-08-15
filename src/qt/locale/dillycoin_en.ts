@@ -777,7 +777,7 @@
         <translation>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</translation>
     </message>
     <message>
-        <location filename="../bitcoin.cpp" line="+392"/>
+        <location filename="../dillycoin.cpp" line="+392"/>
         <source>A fatal error occurred. Dillycoin can no longer continue safely and will quit.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2027,7 +2027,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../bitcoin.cpp" line="+189"/>
+        <location filename="../dillycoin.cpp" line="+189"/>
         <source>%1 didn&apos;t yet exit safely...</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2040,7 +2040,7 @@
 <context>
     <name>QObject::QObject</name>
     <message>
-        <location filename="../bitcoin.cpp" line="-113"/>
+        <location filename="../dillycoin.cpp" line="-113"/>
         <source>Error parsing command line arguments: %1.</source>
         <translation type="unfinished"></translation>
     </message>
