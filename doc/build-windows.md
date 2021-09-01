@@ -93,6 +93,8 @@ Acquire the source in the usual way:
 
 Once the source code is ready the build steps are below:
 
+    cd ~/dillycoin
+    make clean
     PATH=$(echo "$PATH" | sed -e 's/:\/mnt.*//g') # strip out problematic Windows %PATH% imported var
     cd depends
     make HOST=x86_64-w64-mingw32
