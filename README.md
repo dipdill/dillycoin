@@ -3,7 +3,7 @@ Dillycoin Core integration/staging tree
 
 [![Build Status](https://travis-ci.org/litecoin-project/litecoin.svg?branch=master)](https://travis-ci.org/litecoin-project/litecoin)
 
-https://litecoin.org
+https://dillycoin.com
 
 What is Dillycoin?
 ----------------
@@ -15,7 +15,7 @@ out collectively by the network. Dillycoin Core is the name of open source
 software which enables the use of this currency.
 
 For more information, as well as an immediately useable, binary version of
-the Dillycoin Core software, see [https://litecoin.org](https://litecoin.org).
+the Dillycoin Core software, see [https://dillycoin.com](https://dillycoin.com).
 
 License
 -------
